@@ -12,4 +12,5 @@ $(document).ready(function() {
         showTags: true,
         tagsPosition: 'top'
     });
+    console.log("test")
 });
