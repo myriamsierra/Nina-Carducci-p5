@@ -45,6 +45,12 @@ body {
 	width: 20px;
 }
 
+.carousel-item img {
+	width: 100%;
+	height: auto;
+
+}
+
 #about {
 	display: flex;
 	background-color: #e9dfd9;
