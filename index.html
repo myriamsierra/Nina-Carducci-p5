@@ -4,9 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Métadonées pour les moteurs de recherche -->
-	<title>Nina Carducci Photographe</title>
+	<title>Nina Carducci Photographe sur Bordeaux</title>
 	<meta name="description" content="Nina Carducci-Photographe sur Bordeaux,Capture l'instant présent avec passion. Portraits, mariages, événements. Des moments mémorables figés en images.">
 	<meta name="robots" content="index, follow">
+	<!-- Twitter Cards -->
+	<meta name="twitter:image" content="./assets/images/Nina_carducci_photographer_self_portrait.webp">
+	<meta name="twitter:description" content="Nina Carducci-Photographe sur Bordeaux,Capture l'instant présent avec passion. Portraits, mariages, événements. Des moments mémorables figés en images.">
+	<meta name="twitter:card" content="Nina Carducci-Photographe sur Bordeaux,Capture l'instant présent avec passion. Portraits, mariages, événements. Des moments mémorables figés en images.">
+	<meta name="twitter:site" content ="@Nina_Carducci">
 	<!-- Open Graph meta (Facebook, Linkedin,Instagram) -->
 	<meta property="og:title" content="Page Instagram de Nina Carducci">
 	<meta property="og:description" content="Les travaux de la photographe Nina Carducci">
@@ -14,13 +19,13 @@
 	<meta property="og:url" content="https://www.instagram.com/ninacarducci.photo/?hl=fr">
 	<meta property="og:description" content="Nina Carducci-Photographe sur Bordeaux,Capture l'instant présent avec passion. Portraits, mariages, événements. Des moments mémorables figés en images.">
 	<!-- Liens minifier et async -->
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" async >
-	<link rel="stylesheet" href="./assets/style.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com" async>
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin async>
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" loading="preload" >
+	<link rel="stylesheet" href="./assets/style.min.css" defer>
+	<link rel="preconnect" href="https://fonts.googleapis.com" loading="preload">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin loading="preload">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" async >
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" async></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.min.js"defer></script>
 	<script src="./assets/scripts.min.js"defer></script>
 	<!--Google Rich Snipet -->
@@ -39,9 +44,9 @@
 					"postalCode": "33200", 
 					"addressCountry": "France" 
 				},
-			"priceRange": "€",
+			"priceRange": "50€ 400€",
 			"telephone": " 05 56 67 78 89.",
-			"email": "contact@example.com", 
+			"email": "ninaCarducci@gmail.com", 
 			"openingHours": "Mo-Fr 10:00-19:00 ", 
 			"sameAs": [ "https://www.instagram.com/ninacarducci." ] 
 		}, 
@@ -56,7 +61,6 @@
 				<li><a href="#gallery">Galerie</a></li>
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<!-- set a 20:20 i.e a 1:1 aspect ratio -->
 				<li><a class="social-link" aria-label="Visitez le compte Instagram de Nina Carducci" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram_icons.webp" alt="logo instagram" width="20" height="20"></a></li>
 			</ul>
 		<nav>
@@ -97,8 +101,8 @@
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
 				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
-				<p class="about-me__introductionText">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
-				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+				<p class="about-me__introductionText">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : <strong> figer au travers de photographies</strong> pour le savourer avec les personnes qui sont importantes à nos yeux, ou le <strong> partager</strong> au plus grand nombre.
+				C’est ce que je vous propose <strong> saisir ces merveilleux moments au travers de mon regard, </strong>mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 			</div>
 		</section>
 		<section id="gallery">
@@ -131,7 +135,7 @@
 				<div class="service">
 					<div class="service__description">
 						<h4 class="service__description__title">Shooting photo</h4>
-						<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+						<p>Pour capturer vos moments les plus précieux et <strong>garder un souvenir impérissable.</strong> Je me déplace en <strong>Île-de-France </strong>pour réaliser vos photos</p>
 					</div>
 					<div class="service__price">
 						<h4>350€/demi journée</h4>
@@ -141,7 +145,7 @@
 			 	<div class="service">
 					<div class="service__description">
 						<h4 class="service__description__title">Retouches</h4>
-						<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+						<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un <strong>rendu optimal</strong> pour vos publications</p>
 					</div>
 					<div class="service__price">
 						<h4>50€/photo</h4>
@@ -151,7 +155,7 @@
 				<div class="service">
 					<div class="service__description">
 						<h4 class="service__description__title">Album photos</h4>
-						<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+						<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un <strong>album photo personnalisé</strong></p>
 					</div>
 					<div class="service__price">
 						<h4>400€ album A4</h4>
@@ -172,7 +176,7 @@
 			<div class="container">
 				<div class="form-container">
 					<h5>Une question ? Une demande de devis ?</h5>
-					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+					<p> N’hésitez pas à m’écrire ! Je vous répondrais <strong>en moins de 24 heures</strong></p>
 					<form action="" method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom">

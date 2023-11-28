@@ -51,6 +51,10 @@ body {
 
 }
 
+strong{
+	font-weight: inherit;
+}
+
 #about {
 	display: flex;
 	background-color: #e9dfd9;
